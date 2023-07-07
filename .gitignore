@@ -1,0 +1,21 @@
+# Ignorar archivos generados automáticamente
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorar el archivo de configuración local de Django
+settings.py
+
+# Ignorar el archivo de migraciones de Django
+*/migrations/
+
+# Ignorar el archivo de registro de Django
+*.log
+
+# Ignorar archivos estáticos recopilados
+staticfiles/
+
+# Ignorar directorios de entornos virtuales
+env/
+venv/
